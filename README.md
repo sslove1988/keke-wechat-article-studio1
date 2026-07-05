@@ -1,5 +1,8 @@
 # 公众号写作工作室 (Keke WeChat Article Studio)
 
+> © 2026 孙可可 (keke). 本项目采用 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) 协议授权。
+> 允许学习和交流使用，**禁止商业用途**，转载请注明原作者。
+
 面向从未使用过的用户，一个 Skill 搞定公众号文章从写作到发布草稿箱的全流程。
 
 ## 特性
