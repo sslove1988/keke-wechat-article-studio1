@@ -17,7 +17,16 @@
 
 ## 快速开始
 
-### 1. 安装
+### 0. 安装 Python（如已安装可跳过）
+
+本 Skill 需要 **Python 3.10+**。打开终端输入 `python --version` 检查：
+
+- **已安装 3.10+** → 跳到第 1 步
+- **未安装或版本过低** → 去官网下载：https://www.python.org/downloads/
+  - Windows 安装时务必勾选 **"Add Python to PATH"**
+  - macOS 推荐用 Homebrew：`brew install python@3.12`
+
+### 1. 安装 Skill
 
 将本目录放到 WorkBuddy 的 skills 目录：
 
@@ -29,11 +38,18 @@ cp -r keke-wechat-article-studio ~/.workbuddy/skills/
 xcopy /E /I keke-wechat-article-studio %USERPROFILE%\.workbuddy\skills\keke-wechat-article-studio
 ```
 
-### 2. 安装 Python 依赖
+### 2. 一键环境检查（推荐）
 
 ```bash
-pip install -r requirements.txt
+python scripts/setup.py
 ```
+
+脚本会自动检查 Python 版本、安装依赖（Pillow, numpy）、引导填写配置。
+
+> 如果 setup.py 运行失败，可手动安装依赖：
+> ```bash
+> pip install -r requirements.txt
+> ```
 
 ### 3. 配置账号
 
@@ -84,4 +100,9 @@ keke-wechat-article-studio/
 
 ## 许可证
 
-MIT License
+本项目采用 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) (署名-非商业性使用) 协议。
+
+- ✅ 允许学习、交流、引用、修改
+- ✅ **必须署名**：© 2026 孙可可 (keke)
+- ❌ **禁止商业用途**
+- ❌ 禁止闭源再发行
