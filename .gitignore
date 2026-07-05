@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+USER-PROFILE.md
+assets/wechat_config.json
+assets/cover_media_id.txt
+.DS_Store
+Thumbs.db

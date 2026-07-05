@@ -1,0 +1,82 @@
+{
+  "theme": "blue",
+  "colors": {
+    "primary": "#165dff",
+    "primary_dark": "#0d47a1",
+    "primary_light": "#e6f0ff",
+    "primary_lighter": "#f0f5ff",
+    "tag_bg": "#d3e8ff",
+    "quote_bg": "#f0f5ff",
+    "quote_border": "#165dff",
+    "text_main": "rgb(51, 51, 51)",
+    "text_body": "rgb(51, 51, 51)",
+    "text_muted": "rgb(153, 153, 153)",
+    "text_white": "#fff",
+    "img_shadow": "rgb(153, 153, 153)"
+  },
+  "fonts": {
+    "family": "Optima-Regular, PingFangSC-light, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif",
+    "size_base": "16px",
+    "size_body": "16px",
+    "size_h2": "17px",
+    "size_small": "14px",
+    "line_height": "32px",
+    "letter_spacing": "2px",
+    "word_spacing": "2px"
+  },
+  "author": "替换为你的署名",
+  "author_tag": "原创",
+  "article_count": 1,
+  "footer_text": "感谢你喜欢我的文章，我们下一期见啦。",
+  "wechat": {
+    "app_id": "替换为你的AppID",
+    "app_secret": "替换为你的AppSecret"
+  },
+  "presets": {
+    "blue": {
+      "primary": "#165dff",
+      "primary_dark": "#0d47a1",
+      "primary_light": "#e6f0ff",
+      "primary_lighter": "#f0f5ff",
+      "tag_bg": "#d3e8ff",
+      "quote_bg": "#f0f5ff",
+      "quote_border": "#165dff"
+    },
+    "green": {
+      "primary": "rgb(46, 167, 101)",
+      "primary_dark": "#1a6b3a",
+      "primary_light": "rgb(240, 253, 244)",
+      "primary_lighter": "#f5fdf8",
+      "tag_bg": "#d3f8b6",
+      "quote_bg": "rgb(240, 253, 244)",
+      "quote_border": "rgb(66, 185, 131)"
+    },
+    "red": {
+      "primary": "#d4380d",
+      "primary_dark": "#8c1d0a",
+      "primary_light": "#fff1e8",
+      "primary_lighter": "#fff8f3",
+      "tag_bg": "#ffdccc",
+      "quote_bg": "#fff1e8",
+      "quote_border": "#d4380d"
+    },
+    "purple": {
+      "primary": "#531dab",
+      "primary_dark": "#2a0e54",
+      "primary_light": "#f3e8ff",
+      "primary_lighter": "#f9f3ff",
+      "tag_bg": "#e0c8ff",
+      "quote_bg": "#f3e8ff",
+      "quote_border": "#531dab"
+    },
+    "orange": {
+      "primary": "#d46b08",
+      "primary_dark": "#8c3d05",
+      "primary_light": "#fff4e6",
+      "primary_lighter": "#fffaf2",
+      "tag_bg": "#ffe0b3",
+      "quote_bg": "#fff4e6",
+      "quote_border": "#d46b08"
+    }
+  }
+}
